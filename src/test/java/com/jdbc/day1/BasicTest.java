@@ -29,7 +29,7 @@ public class BasicTest {
             System.out.println(resultSet.getString(1) + " " + resultSet.getString(2) + " " + resultSet.getString(3));
         }
 
-        resultSet.beforeFirst(); // to comeback to the beginning of result set
+        resultSet.beforeFirst(); //  to comeback to the beginning of result set
 
         //some technical information about database
         DatabaseMetaData databaseMetaData = connection.getMetaData();
