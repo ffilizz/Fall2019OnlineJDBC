@@ -6,7 +6,7 @@ public class BasicTest {
 
 
     public static void main(String[] args) throws SQLException {
-        String URL = "jdbc:oracle:thin:@3.90.175.72:1521:xe";
+        String URL = "jdbc:oracle:thin:@54.198.155.113:1521:xe";
         String username = "hr";
         String password = "hr";
         //to establish connection with a database
